@@ -9,6 +9,9 @@ const output = {
   login: (req, res) => {
     res.render("home/login")
   },
+  register: (req, res) => {
+    res.render("home/register")
+  },
 };
 
 const process = { //UserStorage에 접근하지 않음.
