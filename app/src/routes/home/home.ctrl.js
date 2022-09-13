@@ -16,7 +16,7 @@ const output = {
 
 const process = { //UserStorage에 접근하지 않음.
   login: (req, res) => {
-    const user = new User(req.body); 
+    const user = new User(req.body);
     const response = user.login();
     return res.json(response);
   },
