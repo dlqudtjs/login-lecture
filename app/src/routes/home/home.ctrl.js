@@ -20,6 +20,11 @@ const process = { //UserStorage에 접근하지 않음.
     const response = user.login();
     return res.json(response);
   },
+  register: (req,res) => {
+    const user = new User(req.body);
+    const response = user.register();
+    return res.json(response);
+  }
 };
 
 module.exports = {
