@@ -1,2 +1,1 @@
-login-lecture
-백엔드
+Diary 프로젝트 시작 전 학습 프로젝트
